@@ -1,11 +1,14 @@
 __credits__ = ["Intelligent Unmanned Systems Laboratory at Westlake University."]
 
 import sys    
-sys.path.append("..")         
+import os
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(parent_dir)    
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches          
-from examples.arguments import args           
+from examples.arguments import args          
+from typing import List 
 
 class GridWorld():
 
@@ -21,7 +24,7 @@ class GridWorld():
         self.forbidden_states = forbidden_states
 
         self.agent_state = start_state
-        self.action_space = args.action_space          
+        self.action_space: List[tuple] = args.action_space          
         self.reward_target = args.reward_target
         self.reward_forbidden = args.reward_forbidden
         self.reward_step = args.reward_step
@@ -32,8 +35,8 @@ class GridWorld():
 
         self.color_forbid = (0.9290,0.6940,0.125)
         self.color_target = (0.3010,0.7450,0.9330)
-        self.color_policy = (0.4660,0.6740,0.1880)
-        self.color_trajectory = (0, 1, 0)
+        self.color_policy = (0.4660,0.6740,0.1880) #策略路线的颜色
+        self.color_trajectory = (0, 1, 0)   #轨迹颜色
         self.color_agent = (0,0,1)
 
 
@@ -158,3 +161,10 @@ class GridWorld():
             x = i % self.env_size[0]
             y = i // self.env_size[0]
             self.ax.text(x, y, str(value), ha='center', va='center', fontsize=10, color='black')
+
+if __name__ == '__main__':
+    env = GridWorld()
+    env.reset()
+    env.render(animation_interval=2)
+    env.add_policy([[0,1,0,0], [0,0,0,1], [0,0,0,1], [0,0,0,1]])
+    env.add_state_values([0.1, 0.2, 0.3, 0.4])

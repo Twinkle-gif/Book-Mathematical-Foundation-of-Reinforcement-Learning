@@ -1,6 +1,8 @@
 
 import sys
-sys.path.append("..")
+import os
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(parent_dir)
 from src.grid_world import GridWorld
 import random
 import numpy as np
@@ -9,7 +11,7 @@ import numpy as np
 if __name__ == "__main__":             
     env = GridWorld()
     state = env.reset()               
-    for t in range(1000):
+    for t in range(10):
         env.render()
         action = random.choice(env.action_space)
         next_state, reward, done, info = env.step(action)
