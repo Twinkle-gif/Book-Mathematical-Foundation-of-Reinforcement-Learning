@@ -1,0 +1,8 @@
+无法使用wandb，错误信息: list index out of range
+使用普通训练模式...
+Episode 100/500, Average Reward: -7.13
+Episode 200/500, Average Reward: 3.90
+Episode 300/500, Average Reward: 3.43
+Episode 400/500, Average Reward: 3.59
+Episode 500/500, Average Reward: 3.66
+Training completed. Showing learned policy.

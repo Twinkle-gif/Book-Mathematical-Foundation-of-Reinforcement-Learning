@@ -1,0 +1,8 @@
+无法使用wandb，错误信息: invalid index to scalar variable.
+使用普通训练模式...
+Episode 100/500, Average Reward: -6.81
+Episode 200/500, Average Reward: 2.90
+Episode 300/500, Average Reward: 3.85
+Episode 400/500, Average Reward: 3.40
+Episode 500/500, Average Reward: 3.42
+Training completed. Showing learned policy.

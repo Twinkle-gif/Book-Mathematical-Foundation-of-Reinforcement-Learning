@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\TD_algorithm.py", line 245, in <module>
+    q_learning_agent, rewards = train_td_algorithm_wandb(
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\TD_algorithm.py", line 184, in train_td_algorithm_wandb
+    state = state_history[1]
+IndexError: list index out of range

@@ -1,0 +1,40 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.19",
+  "startedAt": "2025-11-11T06:38:18.998205Z",
+  "program": "d:\\My_Project\\Book-Mathematical-Foundation-of-Reinforcement-Learning\\Code for grid world\\python_version\\src\\policy\\TD_algorithm.py",
+  "codePath": "Code for grid world\\python_version\\src\\policy\\TD_algorithm.py",
+  "codePathLocal": "Code for grid world\\python_version\\src\\policy\\TD_algorithm.py",
+  "git": {
+    "remote": "git@github.com:Twinkle-gif/Book-Mathematical-Foundation-of-Reinforcement-Learning.git",
+    "commit": "160e6c92843e660a3eb642a849e6ff637fb8ffd6"
+  },
+  "email": "24s104164@stu.hit.edu.cn",
+  "root": "D:\\My_Project\\Book-Mathematical-Foundation-of-Reinforcement-Learning",
+  "host": "DESKTOP-R24N6PN",
+  "executable": "D:\\Miniconda\\envs\\Math_RL\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "808378691584",
+      "used": "520789151744"
+    }
+  },
+  "memory": {
+    "total": "33601994752"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal": "8585740288",
+      "cudaCores": 3072,
+      "architecture": "Ada",
+      "uuid": "GPU-5c84dc45-a51a-5125-0eb3-64c0a771565b"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "e07qqtlqb4j5dx64tfi224ps0afmr2xu"
+}

@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            ftbw4cu0ffptggtrlzpkxdcxfm2qpwp4:
+                codePath: Code for grid world\python_version\src\policy\TD_algorithm.py
+                codePathLocal: Code for grid world\python_version\src\policy\TD_algorithm.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "808378691584"
+                        used: "521092177920"
+                email: 24s104164@stu.hit.edu.cn
+                executable: D:\Miniconda\envs\Math_RL\python.exe
+                git:
+                    commit: 160e6c92843e660a3eb642a849e6ff637fb8ffd6
+                    remote: git@github.com:Twinkle-gif/Book-Mathematical-Foundation-of-Reinforcement-Learning.git
+                gpu: NVIDIA GeForce RTX 4060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060 Laptop GPU
+                      uuid: GPU-5c84dc45-a51a-5125-0eb3-64c0a771565b
+                host: DESKTOP-R24N6PN
+                memory:
+                    total: "33601994752"
+                os: Windows-10-10.0.26100-SP0
+                program: d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\TD_algorithm.py
+                python: CPython 3.10.19
+                root: D:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning
+                startedAt: "2025-11-11T13:59:10.353612Z"
+                writerId: ftbw4cu0ffptggtrlzpkxdcxfm2qpwp4
+        m: []
+        python_version: 3.10.19
+        t:
+            "3":
+                - 2
+                - 16
+            "4": 3.10.19
+            "5": 0.22.3
+            "8":
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+algorithm_type:
+    value: sarsa
+discount_factor:
+    value: 0.9
+env_size:
+    value:
+        - 5
+        - 5
+epsilon:
+    value: 0.1
+learning_rate:
+    value: 0.1
+num_episodes:
+    value: 500

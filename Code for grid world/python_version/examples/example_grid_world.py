@@ -3,7 +3,7 @@ import sys
 import os
 parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(parent_dir)
-from src.grid_world import GridWorld
+from src.envs.grid_world import GridWorld
 import random
 import numpy as np
 

@@ -1,0 +1,17 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.19",
+  "startedAt": "2025-11-11T06:42:56.835168Z",
+  "program": "d:\\My_Project\\Book-Mathematical-Foundation-of-Reinforcement-Learning\\Code for grid world\\python_version\\src\\policy\\TD_algorithm.py",
+  "codePath": "Code for grid world\\python_version\\src\\policy\\TD_algorithm.py",
+  "codePathLocal": "Code for grid world\\python_version\\src\\policy\\TD_algorithm.py",
+  "git": {
+    "remote": "git@github.com:Twinkle-gif/Book-Mathematical-Foundation-of-Reinforcement-Learning.git",
+    "commit": "160e6c92843e660a3eb642a849e6ff637fb8ffd6"
+  },
+  "email": "24s104164@stu.hit.edu.cn",
+  "root": "D:\\My_Project\\Book-Mathematical-Foundation-of-Reinforcement-Learning",
+  "host": "DESKTOP-R24N6PN",
+  "executable": "D:\\Miniconda\\envs\\Math_RL\\python.exe",
+  "writerId": "5i0ixx7d6rx2xm015aqe0efjw1508rux"
+}

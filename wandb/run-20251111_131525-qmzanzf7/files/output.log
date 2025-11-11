@@ -1,0 +1,29 @@
+无法使用wandb，错误信息: setting an array element with a sequence.
+使用普通训练模式...
+TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\AI_scrafts.py", line 265, in <module>
+    agent, rewards = train_td_algorithm_wandb(
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\AI_scrafts.py", line 211, in train_td_algorithm_wandb
+    td_agent.n_step_sarsa_update(list(n_step_buffer), sarsa_n_steps)
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\AI_scrafts.py", line 118, in n_step_sarsa_update
+    self.q_values[state_idx, action] -= self.learning_rate * td_error
+ValueError: setting an array element with a sequence.
+
+During handling of the above exception, another exception occurred:
+
+TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\AI_scrafts.py", line 276, in <module>
+    agent, rewards = train_td_algorithm_wandb(
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\AI_scrafts.py", line 211, in train_td_algorithm_wandb
+    td_agent.n_step_sarsa_update(list(n_step_buffer), sarsa_n_steps)
+  File "d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\AI_scrafts.py", line 118, in n_step_sarsa_update
+    self.q_values[state_idx, action] -= self.learning_rate * td_error
+ValueError: setting an array element with a sequence.
