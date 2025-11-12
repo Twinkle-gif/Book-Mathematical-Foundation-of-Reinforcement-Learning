@@ -1,0 +1,52 @@
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_setup.py:_flush():81] Current SDK version is 0.22.3
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_setup.py:_flush():81] Configure stats pid to 10184
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_setup.py:_flush():81] Loading settings from C:\Users\花同酒\.config\wandb\settings
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_setup.py:_flush():81] Loading settings from D:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\wandb\settings
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_init.py:setup_run_log_directory():706] Logging user logs to D:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\wandb\run-20251111_235253-pffwoaei\logs\debug.log
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to D:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\wandb\run-20251111_235253-pffwoaei\logs\debug-internal.log
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_init.py:init():833] calling init triggers
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'num_episodes': 1000, 'learning_rate': 0.001, 'discount_factor': 0.9, 'epsilon_decay': 0.995, 'epsilon_min': 0.01, 'buffer_size': 10000, 'batch_size': 32, 'state_representation': 'coordinates', 'env_size': (5, 5), '_wandb': {}}
+2025-11-11 23:52:53,821 INFO    MainThread:10184 [wandb_init.py:init():881] starting backend
+2025-11-11 23:52:56,093 INFO    MainThread:10184 [wandb_init.py:init():884] sending inform_init request
+2025-11-11 23:52:56,108 INFO    MainThread:10184 [wandb_init.py:init():892] backend started and connected
+2025-11-11 23:52:56,109 INFO    MainThread:10184 [wandb_init.py:init():962] updated telemetry
+2025-11-11 23:52:56,147 INFO    MainThread:10184 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout
+2025-11-11 23:52:57,756 INFO    MainThread:10184 [wandb_init.py:init():1033] starting run threads in backend
+2025-11-11 23:52:57,807 INFO    MainThread:10184 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-11 23:52:57,807 INFO    MainThread:10184 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-11 23:52:57,807 INFO    MainThread:10184 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-11 23:52:57,808 INFO    MainThread:10184 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-11 23:52:57,811 INFO    MainThread:10184 [wandb_init.py:init():1073] run started, returning control to user process
+2025-11-11 23:53:13,271 INFO    MainThread:10184 [wandb_run.py:_finish():2272] finishing run 24s104164-harbin-institute-of-technology/grid-world-dqn/pffwoaei
+2025-11-11 23:53:13,271 INFO    MainThread:10184 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-11-11 23:53:13,272 INFO    MainThread:10184 [wandb_run.py:_restore():2453] restore
+2025-11-11 23:53:13,272 INFO    MainThread:10184 [wandb_run.py:_restore():2459] restore done
+2025-11-11 23:53:49,095 ERROR   wandb-AsyncioManager-main:10184 [service_client.py:_forward_responses():77] Error reading server response.
+Traceback (most recent call last):
+  File "D:\Miniconda\envs\Math_RL\lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] 指定的网络名不再可用。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Miniconda\envs\Math_RL\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 73, in _forward_responses
+    while response := await self._read_server_response():
+  File "D:\Miniconda\envs\Math_RL\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 87, in _read_server_response
+    header = await self._reader.readexactly(_HEADER_BYTE_INT_LEN)
+  File "D:\Miniconda\envs\Math_RL\lib\asyncio\streams.py", line 708, in readexactly
+    await self._wait_for_data('readexactly')
+  File "D:\Miniconda\envs\Math_RL\lib\asyncio\streams.py", line 501, in _wait_for_data
+    await self._waiter
+  File "D:\Miniconda\envs\Math_RL\lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+  File "D:\Miniconda\envs\Math_RL\lib\asyncio\windows_events.py", line 826, in _poll
+    value = callback(transferred, key, ov)
+  File "D:\Miniconda\envs\Math_RL\lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] 指定的网络名不再可用。
+2025-11-11 23:53:49,097 INFO    wandb-AsyncioManager-main:10184 [mailbox.py:close():137] Closing mailbox, abandoning 2 handles.
+2025-11-11 23:53:49,099 INFO    MainThread:10184 [wandb_run.py:_restore():2453] restore
+2025-11-11 23:53:49,099 INFO    MainThread:10184 [wandb_run.py:_restore():2459] restore done

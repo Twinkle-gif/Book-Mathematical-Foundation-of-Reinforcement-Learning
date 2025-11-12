@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            kt5junyqbjkne6si0vah3qtfqwvsq8gh:
+                codePath: Code for grid world\python_version\src\policy\dqn.py
+                codePathLocal: Code for grid world\python_version\src\policy\dqn.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "808378691584"
+                        used: "521872662528"
+                email: 24s104164@stu.hit.edu.cn
+                executable: D:\Miniconda\envs\Math_RL\python.exe
+                git:
+                    commit: f716c2ff85f2641b5239a8687e2a31f6e0e2a55f
+                    remote: git@github.com:Twinkle-gif/Book-Mathematical-Foundation-of-Reinforcement-Learning.git
+                gpu: NVIDIA GeForce RTX 4060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060 Laptop GPU
+                      uuid: GPU-5c84dc45-a51a-5125-0eb3-64c0a771565b
+                host: DESKTOP-R24N6PN
+                memory:
+                    total: "33601994752"
+                os: Windows-10-10.0.26100-SP0
+                program: d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\dqn.py
+                python: CPython 3.10.19
+                root: D:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning
+                startedAt: "2025-11-11T15:48:41.206170Z"
+                writerId: kt5junyqbjkne6si0vah3qtfqwvsq8gh
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 16
+            "4": 3.10.19
+            "5": 0.22.3
+            "8":
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+batch_size:
+    value: 32
+buffer_size:
+    value: 10000
+discount_factor:
+    value: 0.9
+env_size:
+    value:
+        - 5
+        - 5
+epsilon_decay:
+    value: 0.995
+epsilon_min:
+    value: 0.01
+learning_rate:
+    value: 0.001
+num_episodes:
+    value: 1000
+state_representation:
+    value: coordinates

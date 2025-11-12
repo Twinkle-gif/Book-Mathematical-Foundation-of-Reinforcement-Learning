@@ -1,0 +1,12 @@
+d:\My_Project\Book-Mathematical-Foundation-of-Reinforcement-Learning\Code for grid world\python_version\src\policy\dqn.py:105: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_new.cpp:256.)
+  states = torch.FloatTensor([e[0] for e in batch]).to(self.device)
+Episode 100/1000, Average Reward: -79.23, Epsilon: 0.606
+Episode 200/1000, Average Reward: -14.12, Epsilon: 0.367
+Episode 300/1000, Average Reward: -4.77, Epsilon: 0.222
+Episode 400/1000, Average Reward: -0.12, Epsilon: 0.135
+Episode 500/1000, Average Reward: 0.82, Epsilon: 0.082
+Episode 600/1000, Average Reward: 2.69, Epsilon: 0.049
+Episode 700/1000, Average Reward: 4.38, Epsilon: 0.030
+Episode 800/1000, Average Reward: 4.61, Epsilon: 0.018
+Episode 900/1000, Average Reward: 4.87, Epsilon: 0.011
+Episode 1000/1000, Average Reward: 4.79, Epsilon: 0.010
